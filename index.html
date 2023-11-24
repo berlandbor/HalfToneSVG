@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SVG Halftone Converter</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="container">
+    <h1>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.5 -0.5 100 16">
+        <title>HalfTone.svg</title>
+        <g stroke="#000" fill="none" stroke-linecap="round">
+          <!-- SVG paths here -->
+        </g>
+      </svg>
+    </h1>
+    <p>Преобразуйте изображение в масштабируемые полутона SVG.  Загрузите изображение и увидите волшебство!</p>
+  </header>
+
+  <div class="choices">
+    <div class="file">
+      Drag & Drop files or 
+      <input type="file" id="upload" accept=".jpg,.jpeg,.png,.gif,.svg" />
+    </div>
+    <!--button id="convertBtn">Convert</button-->
+  </div>
+
+  <div id="result" class="container">
+<div id="output"></div>
+  </div>
+
+   <script src='PqvYBB.js'></script>
+<!--script src='https://codepen.io/shshaw/pen/epmrgO.js'></script--><script  src="./script.js"></script>
+</body>
+</html>
